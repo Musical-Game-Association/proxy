@@ -64,7 +64,7 @@ window.addEventListener(
         timeout: 2500,
         icon: false,
         title: hello,
-        message: "欢迎来到我的主页",
+        message: "欢迎使用Mugassn Proxy Service",
       });
     }, 800);
 
@@ -91,7 +91,7 @@ window.addEventListener(
 );
 
 setTimeout(function () {
-  $("#loading-text").html("字体及文件加载可能需要一定时间");
+  $("#loading-text").html("奋力加载中...");
 }, 3000);
 
 // 新春灯笼 （ 需要时可取消注释 ）
@@ -358,8 +358,8 @@ $("#switchmore").on("click", function () {
     $("#change1").html("哎呀，这都被你发现了（ 再点击一次可关闭 ）");
   } else {
     $("#container").attr("class", "container");
-    $("#change").html("Hello&nbsp;World&nbsp;!");
-    $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+    $("#change").html("Mugassn Proxy Service");
+    $("#change1").html("移动端用户请点击底部版权Mugassn上方空白处登录");
   }
 });
 
@@ -407,8 +407,8 @@ window.addEventListener("load", function () {
     if (window.innerWidth <= 990) {
       //移动端隐藏更多页面
       $("#container").attr("class", "container");
-      $("#change").html("Hello&nbsp;World&nbsp;!");
-      $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+      $("#change").html("Mugassn Proxy Service");
+      $("#change1").html("移动端用户请点击底部版权Mugassn上方空白处登录");
 
       //移动端隐藏弹窗页面
       $("#box").css("display", "none");
@@ -444,7 +444,7 @@ document.oncontextmenu = function () {
   iziToast.show({
     timeout: 2000,
     icon: "fa-solid fa-circle-exclamation",
-    message: "为了浏览体验，本站禁用右键",
+    message: "想右键偷看源码？达咩！！",
   });
   return false;
 };
