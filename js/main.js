@@ -91,7 +91,7 @@ window.addEventListener(
 );
 
 setTimeout(function () {
-  $("#loading-text").html("奋力加载中...");
+  $("#loading-text").html("拼命加载中...");
 }, 3000);
 
 // 新春灯笼 （ 需要时可取消注释 ）
@@ -359,7 +359,7 @@ $("#switchmore").on("click", function () {
   } else {
     $("#container").attr("class", "container");
     $("#change").html("Mugassn Proxy Service");
-    $("#change1").html("移动端用户请点击底部版权Mugassn上方空白处登录");
+    $("#change1").html("任何问题请联系客服微信号Mugassn");
   }
 });
 
@@ -374,10 +374,10 @@ $("#switchmenu").on("click", function () {
   switchmenu = !switchmenu;
   if (switchmenu) {
     $("#row").attr("class", "row menus");
-    $("#menu").html("<i class='fa-solid fa-xmark'></i>戳我");
+    $("#menu").html("<i class='fa-solid fa-xmark'></i>🏠︎");
   } else {
     $("#row").attr("class", "row");
-    $("#menu").html("<i class='fa-solid fa-bars'></i>戳我");
+    $("#menu").html("<i class='fa-solid fa-bars'></i>🏠O");
   }
 });
 
@@ -408,7 +408,7 @@ window.addEventListener("load", function () {
       //移动端隐藏更多页面
       $("#container").attr("class", "container");
       $("#change").html("Mugassn Proxy Service");
-      $("#change1").html("移动端用户请点击底部版权Mugassn上方空白处登录");
+      $("#change1").html("任何问题请联系客服微信号Mugassn");
 
       //移动端隐藏弹窗页面
       $("#box").css("display", "none");
