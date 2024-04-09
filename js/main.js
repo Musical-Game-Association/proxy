@@ -374,10 +374,10 @@ $("#switchmenu").on("click", function () {
   switchmenu = !switchmenu;
   if (switchmenu) {
     $("#row").attr("class", "row menus");
-    $("#menu").html("<i class='fa-solid fa-xmark'></i>🏠︎");
+    $("#menu").html("<i class='fa-solid fa-xmark'></i>≡");
   } else {
     $("#row").attr("class", "row");
-    $("#menu").html("<i class='fa-solid fa-bars'></i>🏠O");
+    $("#menu").html("<i class='fa-solid fa-bars'></i>🏠︎");
   }
 });
 
